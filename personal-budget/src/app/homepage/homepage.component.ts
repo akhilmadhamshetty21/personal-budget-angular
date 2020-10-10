@@ -10,15 +10,15 @@ import { DataserviceService } from '../dataservice.service';
   styleUrls: ['./homepage.component.scss']
 })
 export class HomepageComponent implements OnInit {
-  public color;
-  public svg;
-  public width;
-  public height;
   public radius;
   public pie;
   public arc;
+  public color;
   public outerArc;
   public key;
+  public svg;
+  public width;
+  public height;
   public dataSource = {
     datasets: [
       {
